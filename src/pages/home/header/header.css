@@ -1,0 +1,36 @@
+.h-header {
+	
+	top: 0;
+	width: 100%;
+	height:0.96rem;
+	background: #f6f6f6;
+	border-bottom:0.01rem solid #ccc;
+}
+.h-left {
+	width: 86%;
+	height: .52rem;
+	background:white;
+	float: left;
+	box-shadow: 0.04rem 0.04rem 0.04rem 0.04rem #ccc;
+	border-radius: 0.1rem;
+	margin:.2rem 0 0 .2rem ;
+	line-height: .52rem;
+	font-size: 0.2rem;
+	color: #666;
+}
+.h-sousuo {
+	padding: 0 .16rem;
+	font-size: 0.2rem;vertical-align: middle;
+}
+.h-left-input {
+	width: 100%;
+	height: .52rem;
+}
+.h-right {
+	float: left;
+	margin:.2rem 0 0 .2rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: deepskyblue;
+}
+

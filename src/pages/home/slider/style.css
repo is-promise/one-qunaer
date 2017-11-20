@@ -1,0 +1,18 @@
+.mainMessage {
+	width: 100%;
+	height: 1.34rem;
+	background: #ff697a;
+	color: white;
+}
+.mainMessage-left {
+	width: 33%;
+	height: 1.34rem;
+	float: left;
+	
+}
+.mainMessage-middle {
+	float: left;
+}
+.mainMessage-right {
+	float: left;
+}
