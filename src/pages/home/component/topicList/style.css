@@ -1,0 +1,40 @@
+.mainMessage {
+	width: 100%;
+	height: 1.34rem;
+	background: #ff697a;
+	color: white;
+}
+.mainMessage-left {
+	width: 33%;
+	height: 1.34rem;
+	float: left;
+	
+}
+.mainMessage-middle {
+	float: left;
+}
+.mainMessage-right {
+	float: left;
+}
+.listUl {
+	text-align: center;
+	width:98%;
+	float: left;
+	background: #f6f6f6;
+	margin-left: 0.08rem;
+	border-radius: 0.2rem;
+	overflow: hidden;
+	font-size: 0.2rem;
+}
+.listUl .iconfont{
+	font-size: .4rem;
+	color: deepskyblue;
+	padding: 0.2rem 0;
+}
+.listLi {
+	margin: 0.01rem 0.01rem;
+	width: 24.6%;
+	height: 1.2rem;
+	float: left;
+	background: white;
+}

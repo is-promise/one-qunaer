@@ -1,0 +1,159 @@
+.nav {
+	width: 100%;
+	float: left;
+	margin-top:.08rem ;
+}
+.nav .f-nav {
+	float: left;
+	width: 98%;
+	height: 100%;
+	border-radius: .1rem;
+	margin-left: 0.1rem;
+	margin-bottom: 0.04rem;
+	color: #FFFFFF;
+	background: white;
+	overflow: hidden;
+}
+.nav .f-nav-li .nav-title{
+	padding: .27rem 0;	
+	font-size: 0.26rem;
+}
+
+.nav .f-nav li {
+	float: left;
+	background: white;
+	width: 33%;
+	margin: 0.01rem;
+	height: 1.8rem;
+	text-align: center;
+	font-size: .28rem;
+}
+.nav .f-nav .f-nav-li1 {
+	background:#ff697a ;
+}
+.nav .f-nav .iconfont{
+	font-size: .8rem;
+	color: gainsboro;
+}
+
+.nav .f-nav .nav-list1{
+	line-height: 0.89rem;
+	margin-bottom: 0.01rem ;
+	background: #ff697a;
+}
+.nav .f-nav .nav-list2{
+	line-height: 0.9rem;
+	background: #ff697a;
+	
+}
+
+
+.nav .f-nav2 {
+	float: left;
+	width: 98%;
+	height: 100%;
+	border-radius: .1rem;
+	margin-left: 0.1rem;
+	margin-bottom: 0.04rem;
+	color: #FFFFFF;
+	background: white;
+	overflow: hidden;
+}
+.nav .f-nav2 .f-nav-li .nav-title{
+	padding: .27rem 0;	
+	font-size: 0.26rem;
+}
+
+.nav .f-nav2  li {
+	float: left;
+	background: white;
+	width: 33%;
+	margin: 0.01rem;
+	height: 1.8rem;
+	text-align: center;
+	font-size: .28rem;
+}
+.nav .f-nav2 .f-nav-li1 {
+	background:#3d98ff ;
+}
+.nav .f-nav2 .iconfont{
+	font-size: .6rem;
+}
+
+.nav .f-nav2 .nav-list1{
+	line-height: 0.89rem;
+	margin-bottom: 0.01rem ;
+	background: #3d98ff;
+}
+.nav .f-nav2 .nav-list2{
+	line-height: 0.9rem;
+	background: #3d98ff;
+	
+}
+
+
+.nav .f-nav3 {
+	float: left;
+	width: 98%;
+	height: 100%;
+	border-radius: .1rem;
+	margin-left: 0.1rem;
+	margin-bottom: 0.04rem;
+	color: #FFFFFF;
+	background: white;
+	overflow: hidden;
+}
+.nav .f-nav3 .f-nav-li .nav-title{
+	padding: .27rem 0;	
+	font-size: 0.26rem;
+}
+
+.nav .f-nav3  li {
+	float: left;
+	background: white;
+	width: 33%;
+	margin: 0.01rem;
+	height: 1.8rem;
+	text-align: center;
+	font-size: .28rem;
+}
+.nav .f-nav3 .f-nav-li1 {
+	background:#44c522 ;
+}
+.nav .f-nav3 .iconfont{
+	font-size: .8rem;
+}
+
+.nav .f-nav3 .nav-list1{
+	line-height: 0.89rem;
+	margin-bottom: 0.01rem ;
+	background: #44c522;
+}
+.nav .f-nav3 .nav-list2{
+	line-height: 0.9rem;
+	background: #44c522;
+	
+}
+
+
+.nav .f-nav-footer {
+	float: left;
+	width: 98%;
+	height: 100%;
+	border-radius: .1rem;
+	margin-left: 0.1rem;
+	margin-bottom: .16rem;
+	color: #FFFFFF;
+	background: white;
+	overflow: hidden;
+}
+.nav .nav-footer-li {
+	float: left;
+	background: white;
+	width: 33%;
+	margin: 0.01rem;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: .28rem;
+	background: orange;
+}

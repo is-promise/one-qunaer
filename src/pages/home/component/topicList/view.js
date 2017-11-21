@@ -3,20 +3,22 @@ import axios from 'axios';
 import './style.css';
 import { connect } from 'react-redux';
 import { getIndexAction } from './actionCreator';
+import { getNavAction } from '../nav/actionCreator';
 
  class Slider extends Component {
 	
   render() {
-  	
   	const list = this.props.list.map((item, index) => {
-			return (<li key={item.id}>{item.titel}</li>)							
+			return (
+				<li className="listLi" key={item.id}>
+					<p className={item.icon}></p>
+					<p>{item.titel}</p>
+				</li>
+			)
 		})
-  	
   	return ( 
   				
-		<ul>
-			{list}
-		</ul>
+		<ul className="listUl">{list}</ul>
 
   	)
   }  
@@ -36,8 +38,10 @@ import { getIndexAction } from './actionCreator';
 
 	const mapDispatchToProps = (dispatch) => ({
 		handleGetInfoSucc: (response) => {				
-			const list = response.data.data.list;				
+			const list = response.data.data.list;	
+			const navList = response.data.data.travelList;
 			dispatch(getIndexAction(list));
+			dispatch(getNavAction(navList));
 		}
 	})
 	

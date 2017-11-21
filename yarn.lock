@@ -1581,7 +1581,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1:
+create-react-class@^15.5.1, create-react-class@^15.6.0:
   version "15.6.2"
   resolved "http://registry.npm.taobao.org/create-react-class/download/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
   dependencies:
@@ -1926,6 +1926,10 @@ dom-urls@^1.1.0:
   resolved "http://registry.npm.taobao.org/dom-urls/download/dom-urls-1.1.0.tgz#001ddf81628cd1e706125c7176f53ccec55d918e"
   dependencies:
     urijs "^1.16.1"
+
+dom7@^2.0.1:
+  version "2.0.1"
+  resolved "http://registry.npm.taobao.org/dom7/download/dom7-2.0.1.tgz#a8a2c802cf17c20b051d9414143061472201a233"
 
 domain-browser@^1.1.1:
   version "1.1.7"
@@ -5169,6 +5173,13 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
+react-native-page-control@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.npm.taobao.org/react-native-page-control/download/react-native-page-control-1.1.1.tgz#8ac0b0ba74dbc195eeb2f9f18bfb131ed1e6808f"
+  dependencies:
+    create-react-class "^15.6.0"
+    prop-types "^15.5.10"
+
 react-redux@^5.0.6:
   version "5.0.6"
   resolved "http://registry.npm.taobao.org/react-redux/download/react-redux-5.0.6.tgz#23ed3a4f986359d68b5212eaaa681e60d6574946"
@@ -5234,6 +5245,10 @@ react-scripts@1.0.17:
     whatwg-fetch "2.0.3"
   optionalDependencies:
     fsevents "1.1.2"
+
+react-slide-deck@^0.2.3:
+  version "0.2.3"
+  resolved "http://registry.npm.taobao.org/react-slide-deck/download/react-slide-deck-0.2.3.tgz#f3c127d76a14edb9913f35adcf08b7c330bbce71"
 
 react@^16.1.1:
   version "16.1.1"
@@ -6026,6 +6041,12 @@ sw-toolbox@^3.4.0:
   dependencies:
     path-to-regexp "^1.0.1"
     serviceworker-cache-polyfill "^4.0.0"
+
+swiper@^4.0.6:
+  version "4.0.6"
+  resolved "http://registry.npm.taobao.org/swiper/download/swiper-4.0.6.tgz#a40ce681bc8408929a9544629d2d40e267e8fadb"
+  dependencies:
+    dom7 "^2.0.1"
 
 symbol-observable@^1.0.3:
   version "1.0.4"
