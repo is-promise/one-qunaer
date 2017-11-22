@@ -1,0 +1,50 @@
+.f-city {
+	background: #19A0F0;
+}
+
+.f-city-header {
+	position: relative;
+	text-align: center;
+	line-height: .88rem;
+	font-size: .36rem;
+	color: white;
+}
+
+.city-left {
+	position: absolute;
+	left: 0rem;
+	padding: 0 .3rem;
+}
+
+.f-city-nav {
+	background: #19A0F0;	
+	padding: .34rem 0;
+	
+}
+
+.f-city-nav .iconfont {
+	font-size: .36rem;
+	color: #CACACA;
+}
+
+.f-city-conter {
+	width: 90%;
+	overflow: hidden;
+	margin-left: 5%;
+}
+
+.f-sousuo {
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: .68rem;
+	width:.68rem ;
+	border: none;
+	background: white;
+}
+
+.city-input {
+	width: 88%;
+	height: .68rem;
+	border: none;
+}

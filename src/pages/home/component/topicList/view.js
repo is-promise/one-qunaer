@@ -11,7 +11,7 @@ import { getNavAction } from '../nav/actionCreator';
   	const list = this.props.list.map((item, index) => {
 			return (
 				<li className="listLi" key={item.id}>
-					<p className={item.icon}></p>
+					<p ref={(a)=>{this.b=a}} className={item.icon}></p>
 					<p>{item.titel}</p>
 				</li>
 			)
@@ -24,8 +24,8 @@ import { getNavAction } from '../nav/actionCreator';
   }  
   
 	componentDidMount(){		
-			this.getIndexInfo();	
-	} 	
+			this.getIndexInfo();		 				 											
+	} 
 	
 	getIndexInfo() {
 		axios.get('/api/home.json')
