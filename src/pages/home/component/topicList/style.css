@@ -17,13 +17,14 @@
 	float: left;
 }
 .listUl {
+	position: relative;
 	text-align: center;
 	width:98%;
 	float: left;
 	background: #f6f6f6;
 	margin-left: 0.08rem;
 	border-radius: 0.2rem;
-	overflow: hidden;
+	
 	font-size: 0.2rem;
 }
 .listUl .iconfont{

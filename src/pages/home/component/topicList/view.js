@@ -4,6 +4,8 @@ import './style.css';
 import { connect } from 'react-redux';
 import { getIndexAction } from './actionCreator';
 import { getNavAction } from '../nav/actionCreator';
+import IScroll from "iscroll";
+import "./iscroll.css";
 
  class Slider extends Component {
 	
@@ -16,17 +18,26 @@ import { getNavAction } from '../nav/actionCreator';
 				</li>
 			)
 		})
-  	return ( 
-  				
-		<ul className="listUl">{list}</ul>
-
+  	return (   
+	  	<div>	  		
+			<div className="wrapper" ref={(event) => (this.wrapper=event)}>
+				<div className="scroller">
+					<ul className="listUl">{list}</ul>
+				</div>
+			</div>		
+		</div>
   	)
   }  
   
-	componentDidMount(){		
-			this.getIndexInfo();		 				 											
+	componentDidMount() {		
+		this.getIndexInfo();
+		setTimeout((myScroll)=>{
+				   new IScroll(this.wrapper, { scrollY: true,mouseWheel: true });
+			},1)
 	} 
-	
+	conmponentDidUpdata () {
+		
+	}
 	getIndexInfo() {
 		axios.get('/api/home.json')
 			.then(this.props.handleGetInfoSucc.bind(this));
